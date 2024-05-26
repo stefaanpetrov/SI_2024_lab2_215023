@@ -47,7 +47,7 @@ class Item {
 }
 
 
-public class SILab2 { //1
+public class SILab2 {  //1
     public static boolean checkCart(List<Item> allItems, int payment){ //2
         if (allItems == null){ //3
             throw new RuntimeException("allItems list can't be null!");//4
